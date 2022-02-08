@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+  
+  button {
+    position: absolute;
+    margin-top: -20rem;
+    width: 15rem;
+    height: 4rem;
+    background: rgb(194, 172, 172);
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    border-radius: 5%;
+  }
+
+  #pizza {
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+  
+  #slice {
+    left: 50%;
+    top: 50%;
+    transform-origin: 0 0;
+    position: absolute;
+    height: 7.5rem;
+    border: 1px solid black;
+    transform: rotate(0deg) 
+  }
+
+  #info {
+    position: absolute;
+    margin-bottom: -20rem;
+  }
